@@ -70,8 +70,7 @@
         "post-update-cmd": [
             "@auto-scripts"
         ],
-       "compile": [
-                "php bin/console doctrine:database:create",
+       "compile": [                
                 "php bin/console doctrine:migrations:migrate"
    		] 
     },
